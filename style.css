@@ -18,10 +18,9 @@ body {
 }
 
 #current {
-    width: 742px;
-    height: 1024px;
+    width: auto;
+    height: auto;
 }
-
 .imgs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
