@@ -11,6 +11,11 @@ body {
     background: black;
 }
 
+.main-img img, 
+.imgs img {
+    width: 100px;
+    height: 50px;
+}
 
 #current {
     width: 742px;
