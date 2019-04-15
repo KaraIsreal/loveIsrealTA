@@ -15,16 +15,16 @@ body {
 .imgs img {
     width: 100%;
 }
-#current{
-width: 742px;
-    height: 1024px;
-}
 
 .imgs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px; 
 }
+
+.imgs img {
+    cursor: pointer;
+  }
 
 /* Fade in animation */
 @keyframes fadeIn {
@@ -37,3 +37,10 @@ width: 742px;
     opacity: 0;
     animation: fadeIn 0.5s ease-in 1 forwards;
 }
+
+/* Media Queries */
+@media(max-width: 600px) {
+    .imgs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
